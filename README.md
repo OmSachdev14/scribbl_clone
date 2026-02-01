@@ -4,7 +4,7 @@ A Flutter-based multiplayer drawing and guessing game inspired by Skribbl.io. Dr
 
 ## 📹 Demo
 
-https://github.com/OmSachdev14/scribbl_clone/Skribbl%20Clone%20App%20Working.webm
+https://github.com/OmSachdev14/scribbl_clone/blob/main/Skribbl%20App%20Working.mp4
 
 > *Watch the app in action! See the complete gameplay featuring drawing, guessing, and real-time multiplayer interaction.*
 

@@ -4,10 +4,9 @@ import mongoose from "mongoose";
 import { Server } from "socket.io";
 import { Room } from "./src/models/room.model.js";
 import getWord from "./api/get_word.js";
-import { Player } from "./src/models/player.model.js";
-import { log } from "console";
-import { rootCertificates } from "tls";
+import dotenv from "dotenv";
 
+dotenv.config();
 const app = express()
 const port = process.env.PORT || 5000;
 var httpserver = http.createServer(app)
@@ -22,7 +21,7 @@ const io = new Server(httpserver, {
 
 app.use(express.json());
 
-const DB = "mongodb+srv://OmSachdev14:OmSachdev14@scribbl-database.8dhazg3.mongodb.net/"
+const DB = process.env.MONGODB_URL
 
 mongoose.connect(DB).then(() => {
     console.log("Connection Successful!");

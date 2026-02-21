@@ -1,4 +1,4 @@
-# Scribbl Clone 🎨
+# SocketScribe 🎨
 
 A Flutter-based multiplayer drawing and guessing game inspired by Skribbl.io. Draw, guess, and compete with friends in real-time!
 
